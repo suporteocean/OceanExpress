@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Botões de Redes Sociais</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: black; /* Fundo preto para áreas sem imagem */
+            background: url('inicialOcean.jpg') no-repeat center center;
+            background-size: contain; /* Mantém a proporção da imagem */
+            background-attachment: fixed; /* Mantém a imagem fixa no fundo */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            text-align: center; /* Centraliza o conteúdo */
+            background: rgba(255, 255, 255, 0.8); /* Fundo semitransparente */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            width: 300px; /* Ajuste do tamanho do logo */
+            margin-bottom: 10px; /* Espaço entre o logo e o texto */
+        }
+        .saiba-mais {
+            font-size: 28px; /* Tamanho do texto */
+            font-weight: bold; /* Negrito */
+            color: #333; /* Cor do texto */
+            margin-bottom: 25px; /* Espaço abaixo do texto */
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: rgb(14, 13, 13);
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn-empresa {
+            background: #949ba0;
+        }
+        .btn-empresa:hover {
+            background: #5e6164;
+        }
+        .btn-instagram {
+            background: #949ba0;
+        }
+        .btn-instagram:hover {
+            background: #5e6164;
+        }
+        .btn-programaOEA {
+            background: #949ba0;
+        }
+        .btn-programaOEA:hover {
+            background: #5e6164;
+        }
+        .btn-facebook {
+            background: #949ba0;
+        }
+        .btn-facebook:hover {
+            background: #5e6164;
+        }
+            .btn-linkedin {
+            background: #949ba0;
+        }
+        .btn-linkedin:hover {
+            background: #5e6164;
+        }
+        .btn:hover {
+            transform: scale(1.10);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo da empresa centralizado -->
+        <img src="LogoOcean.png" alt="Logo da Empresa" class="logo">
+        
+        <!-- Texto Saiba Mais -->
+        <div class="saiba-mais">Saiba Mais</div>
+        
+        <!-- Botões -->
+        <a href="https://oceanexpress.com.br/" class="btn btn-empresa" target="_blank">Site</a>
+        <a href="https://www.instagram.com/suaempresa" class="btn btn-instagram" target="_blank">Instagram</a>
+        <a href="https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/importacao-e-exportacao/oea/biblioteca-do-oea/outros-materiais-oea/perguntas-respostas.pdf" class="btn btn-programaOEA" target="_blank">Programa OEA</a>
+        <a href="https://www.facebook.com/theoceanexpress/" class="btn btn-facebook" target="_blank">Facebook</a>
+        <a href="https://www.linkedin.com/in/ocean-express-brasil/" class="btn btn-linkedin" target="_blank">Linkedin</a>
+    </div>
+</body>
+</html>
